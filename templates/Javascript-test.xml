@@ -1,0 +1,10 @@
+<templateSet group="Javascript-test">
+  <template name="it" value="it('$should$', () =&gt; {&#10;  $testBody$&#10;})" description="it('should...." toReformat="true" toShortenFQNames="true">
+    <variable name="should" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="testBody" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+</templateSet>
